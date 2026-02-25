@@ -7,7 +7,7 @@ const schedule = [
     location: "Paris",
     events: [
       { time: "Check-in", description: "Hotel de Crillon (Rosewood Hotel)", icon: Hotel },
-      { time: "10:15 AM", description: "Depart for Versailles", icon: Car },
+      { time: "10:15 AM", description: "Car transfers from Hotel de Crillon to Versailles", icon: Car },
       { time: "11:00 AM–12:30 PM", description: "Private tour of Versailles including Marie Antoinette's private apartment", icon: Camera },
       { time: "4:30 PM", description: "Photo shoot and drinks at Bar Les Ambassadeurs", icon: Camera },
       { time: "6:30 PM", description: "Car transfers from Hotel de Crillon to dinner", icon: Car },
@@ -25,6 +25,7 @@ const schedule = [
     day: "Friday, 3 April",
     location: "Paris → Beaune",
     events: [
+      { time: "8:00 AM", description: "Luggage pickup by drivers at Hotel de Crillon lobby", icon: Car },
       { time: "10:45–11:15 AM", description: "Car transfers from Hotel de Crillon to Paris Gare de Lyon", icon: Car },
       {
         time: "11:54 AM – 1:28 PM",
