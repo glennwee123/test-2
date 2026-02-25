@@ -54,6 +54,7 @@ const schedule = [
         description: "Wine tasting at Maison Joseph Drouhin (5 minute walk from hotel)",
         icon: Wine,
       },
+      { time: "1:00 PM", description: "Exclusive lunch at 1243 Bourgogne Society", icon: Utensils },
       { time: "Afternoon", description: "Free and easy", icon: Sun },
       {
         time: "",
