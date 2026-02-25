@@ -285,6 +285,37 @@ const destinations: Destination[] = [
     website: "https://www.drouhin.com/",
   },
   {
+    id: "1243-bourgogne-society",
+    name: "1243 Bourgogne Society",
+    location: "Couvent des Cordeliers, Beaune",
+    date: "4 April",
+    time: "1:00 PM",
+    image: "/1243-bourgogne-society-courtyard.png",
+    category: "dining",
+    shortDescription: "An exclusive private lunch at this prestigious wine collector's club in a 13th-century convent",
+    fullDescription:
+      "The 1243 Bourgogne Society is an ultra-exclusive private wine collector's club housed in the beautifully restored Couvent des Cordeliers, a 13th-century Franciscan convent in the heart of Beaune. Named after the year the convent was founded, the society hosts intimate gatherings for passionate wine lovers in this extraordinary historic setting. The stunning Gothic cloisters and rose gardens provide a magical backdrop for their exclusive dining events, which feature cuisine by the acclaimed Japanese restaurant Bissoh paired with some of the world's rarest Burgundy wines.",
+    highlights: [
+      "Ultra-exclusive private wine collector's club",
+      "Set in a beautifully restored 13th-century Franciscan convent",
+      "Stunning Gothic cloisters and rose gardens",
+      "Cuisine by acclaimed Japanese restaurant Bissoh",
+      "Access to some of the world's rarest Burgundy wines",
+    ],
+    tips: [
+      "This is a rare invitation-only privilege",
+      "The convent architecture and gardens are extraordinary",
+      "Expect exceptional wines paired with refined cuisine",
+      "Take time to explore the beautiful cloisters",
+    ],
+    gallery: [
+      "/1243-bourgogne-society-courtyard.png",
+      "/1243-bourgogne-society-courtyard.png",
+      "/1243-bourgogne-society-courtyard.png",
+    ],
+    website: "https://www.1243bourgognesociety.com/index.php",
+  },
+  {
     id: "hospices-beaune",
     name: "Hospices de Beaune",
     location: "Rue de l'Hôtel-Dieu, Beaune",

@@ -26,7 +26,7 @@ const schedule = [
     location: "Paris → Beaune",
     events: [
       { time: "8:00 AM", description: "Luggage pickup by drivers at Hotel de Crillon lobby", icon: Car },
-      { time: "10:45–11:15 AM", description: "Car transfers from Hotel de Crillon to Paris Gare de Lyon", icon: Car },
+      { time: "10:45–11:25 AM", description: "Car transfers from Hotel de Crillon to Paris Gare de Lyon", icon: Car },
       {
         time: "11:54 AM – 1:28 PM",
         description: "LYRIA 9269 (1st Class) from Paris Gare de Lyon to Dijon",
