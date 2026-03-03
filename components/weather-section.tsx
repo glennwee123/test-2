@@ -169,20 +169,12 @@ export function WeatherSection() {
                   <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
                   <span>Light cardigan or sweater for cool cellars</span>
                 </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
-                  <span>Light scarf for chilly evenings</span>
-                </li>
               </ul>
             </div>
 
             <div>
               <h4 className="font-medium mb-3 text-primary">Clothing</h4>
               <ul className="space-y-2 text-muted-foreground text-sm">
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
-                  <span>Smart casual attire for dinners (no shorts)</span>
-                </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
                   <span>Long pants and closed-toe shoes for vineyard walks</span>
@@ -212,10 +204,6 @@ export function WeatherSection() {
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
                   <span>Sunglasses (spring sun can be bright)</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
-                  <span>Small daypack for vineyard excursions</span>
                 </li>
               </ul>
             </div>

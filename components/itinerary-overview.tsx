@@ -7,7 +7,7 @@ const schedule = [
     location: "Paris",
     events: [
       { time: "Check-in", description: "Hotel de Crillon (Rosewood Hotel)", icon: Hotel },
-      { time: "10:15 AM", description: "Depart for Versailles", icon: Car },
+      { time: "10:15 AM", description: "Car transfers from Hotel de Crillon to Versailles", icon: Car },
       { time: "11:00 AM–12:30 PM", description: "Private tour of Versailles including Marie Antoinette's private apartment", icon: Camera },
       { time: "4:30 PM", description: "Photo shoot and drinks at Bar Les Ambassadeurs", icon: Camera },
       { time: "6:30 PM", description: "Car transfers from Hotel de Crillon to dinner", icon: Car },
@@ -25,7 +25,8 @@ const schedule = [
     day: "Friday, 3 April",
     location: "Paris → Beaune",
     events: [
-      { time: "10:45–11:15 AM", description: "Car transfers from Hotel de Crillon to Paris Gare de Lyon", icon: Car },
+      { time: "8:00 AM", description: "Luggage pickup by drivers at Hotel de Crillon lobby", icon: Car },
+      { time: "10:45–11:25 AM", description: "Car transfers from Hotel de Crillon to Paris Gare de Lyon", icon: Car },
       {
         time: "11:54 AM – 1:28 PM",
         description: "LYRIA 9269 (1st Class) from Paris Gare de Lyon to Dijon",
@@ -33,11 +34,11 @@ const schedule = [
       },
       { time: "1:45–2:15 PM", description: "Car transfers from Dijon to Beaune", icon: Car },
       { time: "Check-in", description: "L'Hôtel de Beaune", icon: Hotel }, // Updated to "L'Hôtel de Beaune"
-      { time: "3:40 PM", description: "Car transfers from L'Hôtel de Beaune to Domaine Prieuré Roch", icon: Car },
-      { time: "4:00 PM", description: "Wine tasting at Domaine Prieuré Roch", icon: Wine },
+      { time: "4:40 PM", description: "Car transfers from L'Hôtel de Beaune to Domaine Prieuré Roch", icon: Car },
+      { time: "5:00 PM", description: "Wine tasting at Domaine Prieuré Roch", icon: Wine },
       {
         time: "7:00 PM",
-        description: "Dinner hosted by Domaine Prieuré Roch (Casual)",
+        description: "Dinner hosted by Domaine Prieuré Roch at their Premnord Restaurant (on site)",
         icon: Utensils,
       },
     ],
@@ -53,6 +54,7 @@ const schedule = [
         description: "Wine tasting at Maison Joseph Drouhin (5 minute walk from hotel)",
         icon: Wine,
       },
+      { time: "1:00 PM", description: "Exclusive lunch at 1243 Bourgogne Society", icon: Utensils },
       { time: "Afternoon", description: "Free and easy", icon: Sun },
       {
         time: "",
@@ -61,9 +63,11 @@ const schedule = [
         icon: null,
         noTopMargin: true,
       },
-      { time: "6:45 PM", description: "Car transfers from L'Hôtel de Beaune to dinner", icon: Car },
+      { time: "5:45 PM", description: "Car transfers from L'Hôtel de Beaune to Domaine Leflaive", icon: Car },
+      { time: "6:00–7:00 PM", description: "Wine tasting at Domaine Leflaive", icon: Wine },
+      { time: "7:00 PM", description: "Car transfers to dinner", icon: Car },
       {
-        time: "7:00 PM",
+        time: "7:15 PM",
         description: "Dinner at Table De Levernois",
         icon: Utensils,
         dressCodeSlug: "table-de-levernois",

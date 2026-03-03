@@ -34,7 +34,7 @@ const dinners = [
     menDressCode: "Jacket Without Tie",
     menDescription:
       "A relaxed yet refined dress code. Gentlemen should wear a well-tailored sport coat or blazer with dress trousers. No tie required — an open collar or a pocket square adds a stylish touch.",
-    womenLookBookImage: "/ladies-floral-lookbook.jpg",
+    womenLookBookImage: "/ladies-floral-lookbook-new.png",
     hideMenCaptions: true,
     menLookBook: [
       { src: "/blazer-no-tie-navy.jpg", caption: "Navy Blazer, Open Collar" },
